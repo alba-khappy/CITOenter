@@ -2,7 +2,7 @@
   div#app
     div.container
       div.block 
-        include ../assets/logo-block.svg
+        //include ../assets/logo-block.svg
         h1 Войти в систему
         input(type="e-mail")#email
         labellabel(for="email") E-mail
@@ -19,11 +19,11 @@
 @import "../assets/scss/general.scss";
 
 .container {
-  background-color: $whiteColor;
+  //background-color: $whiteColor;
 }
 
 .block {
   padding: 0 40px 50px;
-  background-color: $lightBlueColor;
+  //background-color: $lightBlueColor;
 }
 </style>

@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// @font-face {
+//     font-family: "Raleway";
+//     src: url("/ppvue/src/assets/fonts/Raleway-Regular.woff") format("woff"),
+//         url("/ppvue/src/assets/fonts/Raleway-Regular.ttf") format("truetype");
+//     font-weight: 400;
+//     font-style: normal;
+// }
+
+// @font-face {
+//     font-family: "Raleway";
+//     font-weight: 700;
+//     src: url("/ppvue/src/assets/fonts/Raleway-Bold.woff2") format("woff2"),
+//         url("/ppvue/src/assets/fonts/Raleway-Bold.woff") format("woff");
+// }
+
+// @font-face {
+//     font-family: "Raleway";
+//     font-weight: 900;
+//     src: url("/ppvue/src/assets/fonts/Raleway-Black.woff2") format("woff2"),
+//         url("/ppvue/src/assets/fonts/Raleway-Black.woff") format("woff");
+// }
+
+// $blueColor: #13377D;
+// $lightBlueColor: #F4F7FD;
+// $blackColor: #231F20;
+// $whiteColor: #ffffff;
+// $grayColor: #8B8B8B;
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+body {
+    //background-color: $whiteColor;
+    //font-family: "Raleway", sans-serif;
+}
+
+main {
+    //color: $blackColor;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}

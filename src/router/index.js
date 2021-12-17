@@ -6,8 +6,8 @@ Vue.use(VueRouter)
 const routes = [
     {
         path: '/',
-        name: 'sections',
-        component: () => import("../pages/sections.vue")
+        name: 'authorization',
+        component: () => import("../pages/authorization.vue")
     },
     
 ]

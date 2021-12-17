@@ -5,25 +5,24 @@
 }
 
 @font-face {
-    font-family: "Raleway";
-    src: url("/ppvue/src/assets/fonts/Raleway-Regular.woff") format("woff"),
-        url("/ppvue/src/assets/fonts/Raleway-Regular.ttf") format("truetype");
+    font-family: "Geometria";
+    src: url("/src/assets/fonts/Geometria.woff") format("woff"),
+    url("/src/assets/fonts/Geometria.woff2") format("woff2");
     font-weight: 400;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: "Raleway";
+    font-family: "Geometria";
+    font-weight: 500;
+    src: url("/src/assets/fonts/Geometria-Medium.woff") format("woff"),
+    url("/src/assets/fonts/Geometria-Medium.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "Geometria";
     font-weight: 700;
-    src: url("/ppvue/src/assets/fonts/Raleway-Bold.woff2") format("woff2"),
-        url("/ppvue/src/assets/fonts/Raleway-Bold.woff") format("woff");
-}
-
-@font-face {
-    font-family: "Raleway";
-    font-weight: 900;
-    src: url("/ppvue/src/assets/fonts/Raleway-Black.woff2") format("woff2"),
-        url("/ppvue/src/assets/fonts/Raleway-Black.woff") format("woff");
+    src: url("/src/assets/fonts/Geometria-Bold.woff") format("woff2"),
+    url("/src/assets/fonts/Geometria-Bold.woff2") format("woff2");
 }
 
 $blueColor: #13377D;
@@ -46,6 +45,7 @@ button:hover {
 }
 
 body {
+    font-family: "Geometria", sans-serif;
     background-color: $whiteColor;
 }
 

@@ -163,7 +163,7 @@
         &:after{
             content:'';
             position: absolute;
-            top:2px;
+            top: 3px;
             left: 6px;
             transform: rotate(45deg);
             width: 3px;

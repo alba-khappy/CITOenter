@@ -8,12 +8,7 @@ const routes = [
         path: '/',
         name: 'authorization',
         component: () => import("../pages/authorization.vue")
-    },
-    {
-        path: '/users-1',
-        name: 'users-1',
-        component: () => import("../pages/users-1.vue")
-    },
+    }
     
 ]
 

@@ -1,7 +1,7 @@
 <template lang="pug">
     div.authorization__container--align-center
         form.authorization__form(action="")
-            img.authorization__logo(src="../assets/logo-block.svg", alt="logo")
+            img.logo--block-img(src="../assets/logo-block.svg", alt="logo")
             h1.authorization__h1 Войти в систему
             div.authorization__input-container.authorization__input-container--email
                 label.authorization__label(for="email") E-mail

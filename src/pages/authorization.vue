@@ -44,6 +44,10 @@
         margin: 0 auto;
     }
 
+    .logo--block-img {
+        margin-bottom: 25px;
+    }
+
     .authorization__container--align-center {
         display: flex;
         align-items: center;
@@ -129,6 +133,7 @@
         height:16px;
         border-radius: 20px;
         margin-right: 10px;
+
     }
 
     .circle--error{

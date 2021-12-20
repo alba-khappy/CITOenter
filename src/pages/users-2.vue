@@ -1,3 +1,4 @@
+
 <template lang="pug">
     div.container.container--users
         nav.aside-nav
@@ -130,6 +131,12 @@
 
     .nav-link--settings{
         background: url("../assets/aside-settings.svg") no-repeat;
+    }
+
+    .users__selected-user {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        column-gap: 20px;
     }
 
     .selected-users__section {

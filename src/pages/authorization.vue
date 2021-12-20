@@ -50,9 +50,8 @@
 
     .authorization__container--align-center {
         display: flex;
-        align-items: center;
         justify-content: center;
-        height: 100vh;
+        margin-top: 200px;
     }
 
     .authorization__h1 {
